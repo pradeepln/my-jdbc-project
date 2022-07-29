@@ -5,6 +5,7 @@ import java.util.List;
 public class App {
 
 	public static void main(String[] args) {
+		//Added an extra line of code/comment
 		JdbcProductDAO dao = new JdbcProductDAO();
 		
 		Product testData = new Product("stuffed paratha", 1234f, 100);
