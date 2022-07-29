@@ -25,7 +25,7 @@ public class App {
 		System.out.println("List of all products after deletion: ");
 		all = dao.findAll();
 		all.forEach(System.out::println);
-
+		//added a comment at bottom by someone else
 	}
 
 }
