@@ -5,7 +5,7 @@ import java.util.List;
 public class App {
 
 	public static void main(String[] args) {
-		//Added an extra line of code/comment
+		//Added an extra line of code/comment - best breakfast is parathas
 		JdbcProductDAO dao = new JdbcProductDAO();
 		
 		Product testData = new Product("stuffed paratha", 1234f, 100);
